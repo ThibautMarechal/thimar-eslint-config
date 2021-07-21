@@ -1,0 +1,1 @@
+# Thibaut Maréchal's eslint config

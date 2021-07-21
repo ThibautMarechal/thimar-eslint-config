@@ -1,0 +1,42 @@
+{
+  "extends": ["standard", "eslint:recommended", "prettier"],
+  "plugins": ["prettier"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "prettier/prettier": [
+      "warn",
+      {
+        "printWidth": 180,
+        "tabWidth": 2,
+        "singleQuote": true,
+        "trailingComma": "all",
+        "bracketSpacing": true,
+        "semi": true,
+        "useTabs": false,
+        "jsxBracketSameLine": false
+      }
+    ],
+    "curly": ["warn", "all"],
+    "dot-notation": ["warn"],
+    "eqeqeq": ["warn", "always"],
+    "no-div-regex": ["warn"],
+    "no-else-return": ["warn"],
+    "no-extra-label": ["warn"],
+    "no-implicit-coercion": ["warn", { "allow": ["!!"] }],
+    "no-useless-return": ["warn"],
+    "yoda": ["warn", "never", { "exceptRange": true }],
+    "no-undef-init": ["warn"],
+    "no-duplicate-imports": ["warn"],
+    "no-useless-computed-key": ["warn"],
+    "no-useless-rename": ["warn"],
+    "no-var": ["warn"],
+    "object-shorthand": ["warn"],
+    "prefer-const": ["warn"],
+    "prefer-destructuring": ["warn"],
+    "prefer-spread": ["warn"],
+    "prefer-template": ["warn"]
+  }
+}
