@@ -1,7 +1,7 @@
 {
   "name": "@thimar/eslint-config",
   "description": "Thibaut Maréchal's eslint config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": {
     "name": "Thibaut Maréchal",
     "email": "github@thibautmarechal.be",
@@ -20,10 +20,13 @@
   "dependencies": {
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "prettier": "^2.3.2"
+    "eslint-plugin-promise": "^6.0.0",
+    "prettier": "^2.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0"
   }
 }

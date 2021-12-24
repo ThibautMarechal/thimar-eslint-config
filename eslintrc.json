@@ -16,7 +16,7 @@
         "bracketSpacing": true,
         "semi": true,
         "useTabs": false,
-        "jsxBracketSameLine": false
+        "bracketSameLine": false
       }
     ],
     "curly": ["warn", "all"],
